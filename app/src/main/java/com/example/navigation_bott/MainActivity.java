@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                 }
                 loadFragment(fragment);
+                Toast.makeText(MainActivity.this, "Good", Toast.LENGTH_SHORT).show();
             }
         });
 
